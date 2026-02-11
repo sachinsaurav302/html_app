@@ -8,6 +8,7 @@ spec:
   selector:
     app: html-app
   ports:
-  - port: 80
+  - port: 80  
     targetPort: 80
     nodePort: 30080
+    
